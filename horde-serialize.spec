@@ -53,3 +53,22 @@ fi
 %dir %{peardir}/Horde/Serialize
 %{peardir}/Horde/Serialize.php
 %{peardir}/Horde/Serialize/JSON.php
+
+
+%changelog
+* Sat Jul 31 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-3mdv2011.0
++ Revision: 564097
+- Increased release for rebuild
+
+* Wed Mar 17 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-2mdv2010.1
++ Revision: 523032
+- replaced Requires(pre): %%{_bindir}/pear with Requires(pre): php-pear
+  increased release version
+
+* Thu Feb 25 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-1mdv2010.1
++ Revision: 510883
+- removed BuildRequires: horde-framework
+- removed BuildRequires: horde-framework
+- import horde-serialize
+
+
