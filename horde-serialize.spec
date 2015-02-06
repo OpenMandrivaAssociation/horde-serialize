@@ -5,7 +5,7 @@
 
 Name:          horde-serialize
 Version:       0.0.2
-Release:       %mkrel 3
+Release:       4
 Summary:       Data Encapulation API
 License:       LGPL
 Group:         Networking/Mail
